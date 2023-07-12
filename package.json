@@ -1,0 +1,36 @@
+{
+  "name": "test-bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "@parcel/watcher": "^2.2.0",
+    "@tinyhttp/app": "^2.1.0",
+    "esbuild": "^0.18.11",
+    "minimist": "^1.2.8",
+    "sirv": "^2.0.3",
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "test": "node src/cli.js test/sketch.js",
+    "test:ts": "node src/cli.js test/sketch.ts"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/test-bundler.git"
+  },
+  "homepage": "https://github.com/mattdesl/test-bundler",
+  "bugs": {
+    "url": "https://github.com/mattdesl/test-bundler/issues"
+  },
+  "devDependencies": {
+    "canvas-sketch": "^0.7.7"
+  }
+}
